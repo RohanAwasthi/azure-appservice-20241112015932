@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "webapp-test345799"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/azure-appservice-20241112015932
+      title: "webapp-test345799"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/webapp-test345799'
+    jenkins.io/job-full-name: 'apache-azure-app/webapp-test345799'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/azure-appservice-20241112015932
+    backstage.io/linguist: https://github.com/RohanAwasthi/azure-appservice-20241112015932
+    azure.com/tag-selector: 'pid/webapp-test345799'
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/ey
